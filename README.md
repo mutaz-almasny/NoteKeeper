@@ -1,16 +1,21 @@
-# notes
+# NoteKeeper
 
-A new Flutter project.
+تطبيق **NoteKeeper** هو تطبيق **Flutter** لإدارة الملاحظات الشخصية، يسمح لك **بإنشاء، تعديل، وحذف الملاحظات** بسهولة.  
+المشروع يستخدم **قاعدة بيانات محلية SQLite** لتخزين الملاحظات على جهاز المستخدم، مما يجعل التطبيق يعمل بدون الحاجة للاتصال بالإنترنت.
 
-## Getting Started
+---
+المميزات الأساسية:
 
-This project is a starting point for a Flutter application.
+- إنشاء ملاحظات جديدة مع عنوان ومحتوى.
+- تعديل أي ملاحظة موجودة.
+- حذف الملاحظات غير المرغوب فيها.
+- تخزين الملاحظات محليًا باستخدام SQLite.
+- واجهة مستخدم بسيطة وسهلة الاستخدام.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ التقنيات المستخدمة
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**: لتطوير واجهة التطبيق عبر جميع الأنظمة (Android & iOS).  
+- **Dart**: لغة البرمجة الأساسية للتطبيق.  
+- **SQFlite**: مكتبة Flutter لإدارة قاعدة البيانات SQLite.
